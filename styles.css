@@ -259,7 +259,7 @@ section {
 }
 
 .material-item:hover {
-  background: #00ff00;
+  background:#00ff00ac;
   color: black;
   box-shadow: 0 0 20px #00ff00;
 }
@@ -465,3 +465,4 @@ section {
     text-align: center;
   }
 }
+
