@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeForge X</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Matrix Background -->
+  <canvas id="matrix"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="#home">ℂ𝕠𝕕𝕖𝕗𝕠𝕣𝕘𝕖 𝕏</a>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#study-materials" class="nav-link">Experience & Class Note</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <!-- Hamburger always on right -->
+      <div class="hamburger" id="hamburger" aria-label="menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="profile-image">
+        <img src="ʕ•́ᴥ•̀ʔっ♡.jpeg" alt="my photo" width="200">
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-title">𝐻𝑒𝓁𝓁𝑜, 𝐼'𝓂 <span class="highlight">𝑅𝒶𝓃𝒶</span></h1>
+        <p class="hero-subtitle">𝕋𝕙𝕚𝕤 𝕨𝕖𝕓𝕤𝕚𝕥𝕖 𝕚𝕤 𝕒 𝕡𝕝𝕒𝕔𝕖 𝕨𝕙𝕖𝕣𝕖 𝕀 𝕤𝕙𝕒𝕣𝕖 𝕒 𝕝𝕚𝕥𝕥𝕝𝕖 𝕒𝕓𝕠𝕦𝕥 𝕞𝕪𝕤𝕖𝕝𝕗, 𝕞𝕪 𝕤𝕥𝕦𝕕𝕪 𝕞𝕒𝕥𝕖𝕣𝕚𝕒𝕝𝕤, 𝕒𝕟𝕕 𝕥𝕙𝕖 𝕡𝕣𝕠𝕛𝕖𝕔𝕥𝕤 𝕀’𝕞 𝕨𝕠𝕣𝕜𝕚𝕟𝕘 𝕠𝕟.</p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary">Learn More</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">𝒜𝒷ℴ𝓊𝓉 ℳℯ</h2>
+    <p class="section-subtitle">Get to know me better</p>
+
+    <div class="about-grid">
+      <div class="about-box">
+        <h3>Introduction</h3>
+        <p>Hello! I’m <strong>Rana Kachary</strong>, a Bachelor student in Computer Science with a deep passion for technology. I am eager to explore this dynamic field, focusing on developing expertise in programming and web development.</p>
+        <p>As an aspiring web developer, I have hands-on experience with basics of networking, and programming languages like C/C++ and Java. I'm driven to apply and improve my skills through real-world challenges and am actively working towards industry certifications.</p>
+      </div>
+
+      <div class="about-box">
+        <h3>Hobbies & Interests</h3>
+        <p>I love coding, playing games, listening to classical music, painting, and exploring the latest in cybersecurity.</p>
+      </div>
+
+      <div class="about-box">
+        <h3>Career Goals</h3>
+        <p>My goal is to become a full-stack developer, contribute to open-source projects, and eventually work in AI & Cybersecurity to solve real-world problems.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section (separate now) -->
+  <section id="education" class="section">
+    <h2 class="section-title">ℰ𝒹𝓊𝒸𝒶𝓉𝒾ℴ𝓃</h2>
+    <p class="section-subtitle">My professional journey and academic background.</p>
+
+    <div class="about-box">
+      <h3>Bachelor's in Computer Science</h3>
+      <p class="section-subtitle">Pandit Deendayal Upadhyaya Adarsha Mahavidyalaya</p>
+      <p>Focusing on core computer science principles with a growing interest in cybersecurity applications. Coursework covers programming, algorithms, and network security. I’m also involved in cybersecurity clubs and competitions to sharpen my expertise.</p>
+    </div>
+  </section>
+
+  <!-- Study Materials Section -->
+  <section id="study-materials" class="study-materials">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">𝔼𝕩𝕡𝕖𝕣𝕚𝕖𝕟𝕔𝕖 & ℂ𝕝𝕒𝕤𝕤 ℕ𝕠𝕥𝕖</h2>
+        <p class="section-subtitle">Resources and materials for learning</p>
+      </div>
+      <div class="materials-grid">
+        <div class="material-item">
+          <h4>Web Development</h4>
+          <p>Guide covering HTML, CSS, JavaScript with AI features.</p>
+          <a href="https://www.w3schools.com/html/default.asp" class="material-link">View Material</a>
+        </div>
+        <div class="material-item">
+          <h4>C & C++</h4>
+          <p>Personal notes and examples from learning journey.</p>
+          <a href="https://www.w3schools.com/c/index.php" class="material-link">View Material</a>
+        </div>
+        <div class="material-item">
+          <h4>Data Structures</h4>
+          <p>Implementation examples and complexity analysis.</p>
+          <a href="https://drive.google.com/file/d/1EvmBiZA7oIN30x3BFcDbszc6eLFEoTtB/view?usp=drive_link" class="material-link">View Material</a>
+        </div>
+        <div class="material-item">
+          <h4>Computer Science Notes</h4>
+          <p>All major & minor class notes, questions, and practical programs.</p>
+          <a href="https://drive.google.com/file/d/1EvmBiZA7oIN30x3BFcDbszc6eLFEoTtB/view?usp=drive_link" class="material-link">View Material</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's connect and collaborate</p>
+      </div>
+      <div class="contact-content">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <!-- SOCIAL LINKS -->
+          <div class="contact-info animate-in">
+            <h3>Connect with me</h3>
+            <div class="social-links">
+              <a href="https://github.com/ranrabha" class="social-link" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.facebook.com/?ref=homescreenpwa " class="social-link" target="_blank">
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+              </a>
+              <a href="https://www.instagram.com/hayat_eishikawa?igsh=MXR6ZXh0MHJ0eWdoMQ==" class="social-link" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+              <a href="http://t.me/Infernowyrmlord" class="social-link" target="_blank">
+                <i class="fab fa-telegram"></i>
+                <span>Telegram</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- EXTRA CONTACT INFO -->
+          <div class="extra-contact-container">
+            <h3>Contact Info</h3>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Assam, INDIA</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+91 8822768001</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <span>Available Mon-Sat, 9AM-6PM</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 CodeForge X. All rights reserved.</p>
+      <p>Built using HTML, CSS, and JavaScript</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
